@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Form</title>
+    </head>
+    <body>
+        <form action="https://www.w3schools.com/" method="POST">
+            First Name: <input type="text" name="first_name" maxlength="20" placeholder="Enter First Name" />
+            <br>
+            Last Name: <input type="text" name="last_name" />
+            <br>
+            User ID: <input type="text" name="user_id" />
+            <br>
+            Password: <input type="password" name="password" />
+            <br>
+            Description: <br><textarea name="description" id="" cols="50" rows="5"></textarea>
+            <br>
+            <input type="checkbox" name="maths" value="on">Maths
+            <input type="checkbox" name="physics" value="on">Physics
+            <br>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br>
+            <select name="dropdown">
+                <option value="maths" selected>Maths</option>
+                <option value="physics">Physics</option>
+            </select>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+            <input type="reset" name="reset" value="Reset">
+            <input type="button" name="ok" value="OK">
+            <input type="image" src="../9. Id, Classes/img/fish.jpg" name="imagebutton">
+            <br>
+            <input type="file" name="fileupload" accept="image/*">
+        </form>
+    </body>
+</html>
